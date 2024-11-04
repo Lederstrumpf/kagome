@@ -76,8 +76,7 @@ hunter_config(
         WASMEDGE_BUILD_STATIC_LIB=ON
         WASMEDGE_BUILD_SHARED_LIB=OFF
       KEEP_PACKAGE_SOURCES
-  )
-
+)
 
 if ("${WASM_COMPILER}" STREQUAL "WAVM")
   hunter_config(
@@ -127,4 +126,3 @@ hunter_config(
     VERSION 0.2.4
     KEEP_PACKAGE_SOURCES
 )
-
