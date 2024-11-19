@@ -7,7 +7,7 @@
 #include "parachain/availability/store/store_impl.hpp"
 #include "candidate_chunk_key.hpp"
 
-constexpr uint64_t KEEP_CANDIDATES_TIMEOUT = 10 * 60;
+constexpr uint64_t KEEP_CANDIDATES_TIMEOUT = 1 * 60;
 
 namespace kagome::parachain {
   AvailabilityStoreImpl::AvailabilityStoreImpl(
