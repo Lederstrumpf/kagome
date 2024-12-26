@@ -82,6 +82,12 @@ hunter_config(
       KEEP_PACKAGE_SOURCES
 )
 
+hunter_config(
+    wabt
+    URL https://github.com/qdrvm/wabt/archive/e5c2678e806661179ea9df5238473a722e25e592.tar.gz
+    SHA1 2e0af7be3aeb2aeea59590b3b54795ac0fc56a01
+)
+
 if ("${WASM_COMPILER}" STREQUAL "WAVM")
   hunter_config(
       LLVM
